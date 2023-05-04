@@ -1,3 +1,12 @@
+body {
+    background-color: #aecbf5;
+    font-family: 'Garamond', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
 h1 a {
     display: block;
     text-decoration: none;
@@ -15,7 +24,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #182d4a;
 }
 
 li { 
@@ -38,7 +47,12 @@ h2 {
     text-align: center;
 }
 
-.img-responsive {
-    max-width: 100%;
-    height: auto;
+.scholarshipContent  img {
+    height: 400px;
+    width: auto;
+    align-content: center;
+}
+
+.faqContent .answer {
+    display: none;
 }
